@@ -1,4 +1,4 @@
-package com.subway.activity.view;
+package com.subway.view;
 
 import com.subway.R;
 

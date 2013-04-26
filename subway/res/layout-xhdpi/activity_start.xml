@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent" 
     android:background="@drawable/background">
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
@@ -15,6 +15,7 @@
         android:layout_marginTop="10dp"
         android:layout_gravity="top"
         android:orientation="horizontal"
+        android:id="@+id/layoutHeader"
         
         >
 
@@ -26,7 +27,7 @@
 
             <ImageView
                 android:id="@+id/imageViewLogo"
-                android:layout_width="130dp"
+                android:layout_width="170dp"
                 android:layout_height="40dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
@@ -44,12 +45,15 @@
         android:layout_marginTop="10dp"
         android:orientation="horizontal"
         android:layout_gravity="center_vertical"
+        android:layout_below="@id/layoutHeader"
+        android:id="@+id/layoutContent"
         
         >
              <FrameLayout
-                 android:layout_width="wrap_content"
+                 android:layout_width="match_parent"
                  android:layout_height="wrap_content"
-                 android:layout_marginTop="200dp"
+                 android:layout_marginTop="240dp"
+                 android:layout_marginLeft="20dp"
                  >
                 <ImageView
                      android:id="@+id/imageViewSubBack"
@@ -81,15 +85,16 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="bottom"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="85dp"
         android:orientation="horizontal"
-       
+        android:layout_below="@id/layoutContent"
+        android:layout_alignParentBottom="true"
         
         >
       
                  <LinearLayout
                      android:id="@+id/layoutFooterAllmenu"
-                     android:layout_width="wrap_content"
+                     android:layout_width="260dp"
                      android:layout_height="wrap_content"
                      android:orientation="horizontal"
                      android:background="@drawable/home_footer_btn_menu_off" >
@@ -102,19 +107,28 @@
                          android:layout_marginLeft="15dp"
                          android:src="@drawable/store_footer_icon" />
                    
-                     
-                    
-
-                     
-                     
-                     
-                     
+                    <com.subway.view.OutlineTextView
+	                android:id="@+id/textChooseAllMenu"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:textColor="#ffffff"
+		            android:textSize="30sp"
+		            android:layout_marginLeft="5dp"
+		            android:layout_marginTop="5dp"
+		            android:layout_gravity="center"
+		            subway:fillColor="#FFFFFFFF"
+		            subway:smallCharacters="17"
+		            subway:strokeColor="#295a04"
+		            android:gravity="center_horizontal"
+		            subway:strokeWidth="5dp" 
+		            android:text="@string/discover_all_our_menu"
+	                />
                 
                  </LinearLayout>
 
                  <LinearLayout
                      android:id="@+id/layoutFooterCoupon"
-                     android:layout_width="wrap_content"
+                     android:layout_width="match_parent"
                      android:layout_height="wrap_content"
                      android:background="@drawable/home_footer_btn_coupons_off" >
                  
@@ -125,6 +139,7 @@
                           android:layout_marginTop="15dp"
                          android:layout_marginLeft="15dp"
                          android:src="@drawable/store_footer_icon" />
+                  
                      
                     <com.subway.view.OutlineTextView
 	                android:id="@+id/textCoupon"
@@ -147,7 +162,7 @@
         </LinearLayout>
           
         
-    </LinearLayout>
+    </RelativeLayout>
 
 
 </RelativeLayout>

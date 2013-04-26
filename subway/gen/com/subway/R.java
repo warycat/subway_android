@@ -128,29 +128,31 @@ containing a value of this type.
         public static final int weibo_icon=0x7f020032;
     }
     public static final class id {
-        public static final int btnClose=0x7f08000d;
-        public static final int btnSend=0x7f08000e;
-        public static final int etEdit=0x7f080016;
-        public static final int flPic=0x7f080013;
+        public static final int btnClose=0x7f08000f;
+        public static final int btnSend=0x7f080010;
+        public static final int etEdit=0x7f080018;
+        public static final int flPic=0x7f080015;
         public static final int imageButtonLocation=0x7f080002;
         public static final int imageButtonLogin=0x7f080000;
-        public static final int imageViewIconCoupon=0x7f08000a;
+        public static final int imageViewIconCoupon=0x7f080009;
         public static final int imageViewIconMenu=0x7f080007;
         public static final int imageViewLogo=0x7f080001;
         public static final int imageViewSub=0x7f080004;
         public static final int imageViewSubBack=0x7f080003;
         public static final int imageViewSubOfTheDay=0x7f080005;
-        public static final int ivDelPic=0x7f080015;
-        public static final int ivImage=0x7f080014;
+        public static final int ivDelPic=0x7f080017;
+        public static final int ivImage=0x7f080016;
+        public static final int layoutContent=0x7f08000c;
         public static final int layoutFooterAllmenu=0x7f080006;
-        public static final int layoutFooterCoupon=0x7f080009;
-        public static final int llImage=0x7f08000f;
-        public static final int ll_text_limit_unit=0x7f080011;
-        public static final int rlTitle=0x7f08000c;
-        public static final int rlTotal=0x7f080010;
-        public static final int textChooseAllMenu=0x7f080008;
-        public static final int textCoupon=0x7f08000b;
-        public static final int tv_text_limit=0x7f080012;
+        public static final int layoutFooterCoupon=0x7f080008;
+        public static final int layoutHeader=0x7f08000b;
+        public static final int llImage=0x7f080011;
+        public static final int ll_text_limit_unit=0x7f080013;
+        public static final int rlTitle=0x7f08000e;
+        public static final int rlTotal=0x7f080012;
+        public static final int textChooseAllMenu=0x7f08000d;
+        public static final int textCoupon=0x7f08000a;
+        public static final int tv_text_limit=0x7f080014;
     }
     public static final class layout {
         public static final int activity_start=0x7f030000;
