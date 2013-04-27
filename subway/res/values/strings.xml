@@ -17,5 +17,13 @@
     
     <string name="discover_all_our_menu">DISCOVER ALL OUR MENU</string>
     <string name="coupon">COUPON</string>
+    <string name="meals">MEALS</string>
+    <string name="home">HOME</string>
+    <string name="catering">CATERING</string>
+    <string name="options">OPTIONS</string>
+    <string name="how_to">HOWTO</string>
+    <string name="order">ORDER</string>
+    <string name="store">STORE</string>
+    <string name="locator">LOCATOR</string>
 	    
 </resources>
